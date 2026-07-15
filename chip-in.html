@@ -1,0 +1,93 @@
+---
+title: "Chip In"
+menu: Chip In
+kicker: "Entirely optional"
+blurb: "This record is researched and paid for by one resident. If it is useful to you, you can help with the costs — or just keep reading, which is also a fine way to help."
+---
+
+<div class="chip-intro">
+  <p>This record is researched, written and paid for by one Boyup Brook resident — me.</p>
+  <p>The work runs on a Claude Pro subscription at <strong>A$33.99 a month</strong>, plus extra usage charges when the research load is heavy. The Freedom of Information application carries a <strong>$30 application fee</strong>, and the Shire has asked for a further <strong>$240</strong> in processing charges — a figure currently <a href="foi.html">under formal internal review as wrongly calculated</a>. Local farmers offered to help with these costs, which is why this page exists.</p>
+  <p>If you have found this record useful and would like to help keep it going, you can send any amount — large or small — straight to my bank using PayID. Chipping in is entirely optional.</p>
+</div>
+
+<div class="payid-card">
+  <img class="brand" src="payid-brand.png" alt="PayID">
+
+  <div class="payid-row">
+    <span class="payid-label">Pay to</span>
+    <span class="payid-value">C Wilson</span>
+  </div>
+
+  <div class="payid-row">
+    <span class="payid-label">PayID (email)</span>
+    <button class="email-copy" id="copyBtn" type="button" aria-label="Copy PayID email to clipboard">
+      <img class="email-img" src="payid-email.png" alt="PayID email address — tap to copy">
+      <span class="copy-hint" id="copyHint">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+        Tap to copy
+      </span>
+    </button>
+  </div>
+</div>
+
+<div class="how-to">
+  <h2>How to send a PayID payment</h2>
+  <ol>
+    <li>Open your banking app and choose <strong>Pay</strong> or <strong>Pay Someone</strong>.</li>
+    <li>Select <strong>PayID</strong> and choose <strong>Email</strong> as the PayID type.</li>
+    <li>Enter the PayID email shown above — easiest is to tap the address to copy it, then paste it in.</li>
+    <li>Check that the name shown comes up as <strong>C Wilson</strong> before you confirm.</li>
+    <li>Enter any amount and send. Payments usually arrive in under a minute.</li>
+  </ol>
+</div>
+
+<div class="hours">
+  <h2>Where the time goes</h2>
+  <p>The hours that go into this record — reading council minutes, agendas and attachments, working through twenty years of annual reports, legislative research, FOI drafting, meeting attendance and transcription, fact-checking and publication — run well into the hundreds. A fuller accounting of the time involved will be added to this page.</p>
+</div>
+
+<div class="about">
+  <h2>About this research</h2>
+  <p>AI research tools assist with locating documents and formatting material, but every legal reference, quotation and factual statement is independently verified against the original legislation or official records before publication. The full disclosure is on the <a href="about.html">About This Site</a> page.</p>
+</div>
+
+<p class="tm-note">PayID is a registered trademark of NPP Australia Limited.</p>
+
+<script>
+  (function () {
+    var u = 'cetti' + 'navi';
+    var dom = 'gmail' + '.' + 'com';
+    var id = u + '@' + dom;
+    var btn = document.getElementById('copyBtn');
+    var hint = document.getElementById('copyHint');
+    if (!btn) return;
+    btn.addEventListener('click', function () {
+      function done() {
+        hint.textContent = 'Copied ✓';
+        btn.classList.add('copied');
+        setTimeout(function () {
+          hint.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> Tap to copy';
+          btn.classList.remove('copied');
+        }, 1900);
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(id).then(done, fallback);
+      } else {
+        fallback();
+      }
+      function fallback() {
+        var t = document.createElement('textarea');
+        t.value = id;
+        t.setAttribute('readonly', '');
+        t.style.position = 'absolute';
+        t.style.left = '-9999px';
+        document.body.appendChild(t);
+        t.select();
+        try { document.execCommand('copy'); } catch (e) {}
+        document.body.removeChild(t);
+        done();
+      }
+    });
+  })();
+</script>
