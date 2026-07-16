@@ -2,7 +2,7 @@
 title: "The Quarantine Promise — Rylington Park's Stock Sale Proceeds"
 menu: The Quarantine Promise
 kicker: "From the Shire's own minutes, media release and monthly reports"
-blurb: "In February 2026 the Council directed that all proceeds from the sale of Rylington Park's machinery, produce and livestock be quarantined in a reserve account — a direction that appears three times in the public record. In the month after that decision, stock income rose $210,113. The amount quarantined: $6,406.03. This page sets out every dated entry — the decisions, the ledger readings, the payments — and the question the record leaves open."
+blurb: "In February 2026 the Council directed that all proceeds from the sale of Rylington Park's machinery, produce and livestock be quarantined in a reserve account — a direction that appears three times in the public record. In March 2026, the month after that decision, ledger account GL149105 'Rylington Stock Program Income' rose $210,113. The amount quarantined in June into the NEW Rylington Park Re-establishment Reserve: $6,406.03. This page sets out every dated entry — the decisions, the ledger readings, the payments — and the question the record leaves open."
 ---
 
 Every entry on this page comes from the Shire of Boyup Brook's published council and committee minutes, attachments and media release. Each entry states its source. Where the record is silent, this page says so rather than guessing.
@@ -18,7 +18,7 @@ Source: Ordinary Council Meeting Minutes, 26 February 2026, item 10.4.8, Council
 
 ## The question the record leaves open
 
-Council's quarantine direction of 26 February 2026 was in force from that date, and the Shire President restated it publicly on 25 March. In the reporting period that closed six days after that media release — the same weeks as the year's only two payments described as "Sheep Freight" — stock program income rose by $210,113. No part of that roughly $210,000, received after the direction was given and after it was publicly repeated, appears in any published record as having been placed in the reserve the direction required. The one transfer that followed, on 25 June, was the $6,406.03 from the June ram sale.
+Council's quarantine direction of 26 February 2026 was in force from that date, and the Shire President restated it publicly on 25 March. In the reporting period that closed six days after that media release — the same weeks as the year's only two payments described as "Sheep Freight" — the ledger account **GL149105 "Rylington Stock Program Income"** rose by $210,113. No part of that roughly $210,000, received after the direction was given and after it was publicly repeated, appears in any published record as having been placed in the reserve the direction required. The one transfer that followed, on 25 June, was the $6,406.03 from the June ram sale — into the newly created **Rylington Park Re-establishment Reserve**.
 
 Nothing in the published minutes, reports or attachments states what the March income was from, or explains why it was not quarantined. This page will be updated if an explanation is published. The full dated record — every decision, ledger reading and payment — is below.
 
